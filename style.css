@@ -1,0 +1,174 @@
+body{
+    background-color:peachpuff;
+    height:800px;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: peachpuff;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+   background-color: whitesmoke;
+
+}
+
+
+.pict{
+    float: right;
+}
+
+
+.second-pic{
+    height: 200px;
+    width: 200px;
+    padding-right: 67cm;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    
+    clear: both;
+    display: table;
+  }
+
+    .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+
+      a:link {
+        color: brown;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: brown;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color:black;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color:red;
+      }
+
+      container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .jj{
+        text-align: center;
+      }
+
+      .header{
+        padding: 60px;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+      }    
+      .jess{
+        border: 4px solid peachpuff;
+        text-align:center ;
+      }
+
+      .container {
+        padding: 20px;
+        background-color: peachpuff;}
+
+        input[type=text], input[type=submit] {
+          width: 100%;
+          padding: 12px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid peachpuff;
+          box-sizing: border-box;
+        }
+
+
+        input[type=checkbox] {
+          margin-top: 16px;
+        }
+
+        input[type=submit] {
+          background-color:burlywood;
+          color: white;
+          border: none;
+        }
+
+        input[type=submit]:hover {
+          opacity: 0.8;
+        }
+		
+		.Logo{
+			float:left;
+			padding-top:1em;
+		}
+			
+		.containers{
+      text-align: center;
+      margin: 1em;
+    }
+			
+			
+			
